@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parks in Seattle</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <nav id="menu"></nav>
+    <div id='map'></div>
+    <div class='map-overlay' id='features'>
+        <h2>Parks in Seattle</h2>
+        <div id='text-description'>
+            <p>Gold Tiles Represent Seattle City Parks</p>
+            <a href="https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::seattle-parks/about">Source</a>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
